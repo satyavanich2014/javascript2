@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project 1</title>
+
+<style>
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:100px;
+    border:0  10px solid black;
+}
+
+.card{
+width: 100px;
+height: 100px;
+margin: 10px;
+border-radius: 5px;
+box-shadow: 0 0 10px teal;
+border: 0 10px solid black;
+
+
+
+
+
+}
+.btn{
+
+  background-color: black; 
+  color: aliceblue; 
+}
+
+
+
+</style>
+
+
+
+
+
+
+
+
+</head>
+<body><div class="container">
+    <div class="card">
+<img src="./images/prabha.1.jpg">
+
+<button class="btn" onclick="green()" >prabhas</button>
+    </div>
+
+<div class="card">
+<img src="./images/thrisha.2.jpg">
+<button class="btn" onclick="yellow()">thrisha</button>
+</div>
+
+<div class="card">
+
+<img src="./images/dhoni.3.jpg">
+<button class="btn"onclick="orange()">MS.dhoni</button>
+</div>
+
+
+</div>
+<script>
+
+function green(){
+
+   document.body.style.backgroundColor="green"; 
+}
+function yellow(){
+
+document.body.style.backgroundColor="yellow"; 
+}
+function orange(){
+
+document.body.style.backgroundColor="orange"; 
+}
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
